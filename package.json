@@ -1,0 +1,39 @@
+{
+  "name": "gen-cli-for-docsify",
+  "version": "1.0.12",
+  "description": "a generate for docsify to auto generator some files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hjb2722404",
+  "license": "ISC",
+  "bin": {
+    "gen": "bin/cli.js"
+  },
+  "dependencies": {
+    "commander": "^5.1.0",
+    "cosmiconfig": "^7.0.0",
+    "cp-file": "^9.0.0",
+    "graceful-fs": "^4.2.4",
+    "make-dir": "^3.1.0",
+    "nested-error-stacks": "^2.1.0",
+    "p-event": "^4.2.0"
+  },
+  "devDependencies": {
+    "ava": "^3.9.0",
+    "clear-module": "^4.1.1",
+    "coveralls": "^3.1.0",
+    "del": "^5.1.0",
+    "import-fresh": "^3.2.1",
+    "nyc": "^15.1.0",
+    "p-event": "^4.2.0",
+    "sinon": "^9.0.2",
+    "tsd": "^0.11.0",
+    "uuid": "^8.1.0",
+    "xo": "^0.32.0"
+  },
+  "__npminstall_done": "Thu Sep 10 2020 10:57:31 GMT+0800 (GMT+08:00)",
+  "_from": "gen-cli-for-docsify@1.0.11",
+  "_resolved": "https://registry.npm.taobao.org/gen-cli-for-docsify/download/gen-cli-for-docsify-1.0.11.tgz"
+}
